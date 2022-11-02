@@ -21,8 +21,7 @@ rows = 2
 s_vals = [1, 1000, 5000, 15000, 25000, 35000]
 f, axes = plt.subplots(figsize=(16, 12), ncols=cols, nrows=rows)
 
-trans = mtrans.blended_transform_factory(f.transFigure,
-                                         mtrans.IdentityTransform())
+trans = mtrans.blended_transform_factory(f.transFigure, mtrans.IdentityTransform())
 
 for i, s in zip(range(cols * rows), s_vals):
     # s_val = 10**i
@@ -34,9 +33,9 @@ for i, s in zip(range(cols * rows), s_vals):
     ax.axis("off")
     s_gdf.plot(ax=ax)
 
-f.suptitle(t="Simplifying lines - the coastline paradox", fontsize='x-large')
-txt = f.text(.80, 15, "Contains OS data © Crown copyright 2022.", ha='center')
+f.suptitle(t="Simplifying lines - the coastline paradox", fontsize="x-large")
+txt = f.text(0.80, 15, "Contains OS data © Crown copyright 2022.", ha="center")
 txt.set_transform(trans)
 
-plt.savefig('output.png')
+plt.savefig("output.png")
 plt.show()
