@@ -1,0 +1,5 @@
+geopandas
+matplotlib
+requests
+descartes
+geovoronoi
