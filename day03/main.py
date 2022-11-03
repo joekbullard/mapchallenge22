@@ -61,5 +61,5 @@ ax.set_title(
     fontsize=20,
     y=0.98,
 )
-plt.savefig("sample.png", bbox_inches="tight", pad_inches=0)
+plt.savefig("output.png", bbox_inches="tight", pad_inches=0)
 plt.show()
