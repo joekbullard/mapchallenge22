@@ -45,9 +45,10 @@ plt.figtext(
     0.1,
     0.1,
     """
-    Voronoi plots partition geographic areas into regions based on proximity to a closest point.
-    In this example using Bristol allotments, each point (also known as seed) has a related
-    polygon (cell) indicating the geograhic area closer to that point than any other
+    Voronoi plots partition geographic areas into regions based 
+    on proximity to a closest point. In this example using Bristol allotments, 
+    each point (also known as seed) has a related polygon (cell) indicating 
+    the geograhic area closer to that point than any other
     """,
     ha="left",
     fontsize=12,
