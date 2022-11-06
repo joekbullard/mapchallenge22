@@ -1,3 +1,5 @@
 */env
-*/*.tif
+*.tif
+*.tiff
+*/S2A_MSIL1C_20220807T112131_N0400_R037_T30UVB_20220807T145932.SAFE/
 */*.ipynb
